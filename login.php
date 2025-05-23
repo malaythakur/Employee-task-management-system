@@ -24,7 +24,7 @@
         <?php } ?>
         
         <?php if (isset($_GET['success'])){?>
-            <div>
+            <div class="alert alert-success" role="alert">
                 <?php echo stripcslashes($_GET['success']); ?>  
             </div>
         <?php } 
